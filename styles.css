@@ -1,0 +1,52 @@
+.container {
+    max-width: 320px;
+    margin: 8vh auto 0 auto;
+    box-shadow: 0 0 45px 1px rgba(153, 153, 153, 1);
+    padding: 20px;
+}
+
+.inputs {
+    width: 95%;
+    border: none;
+    outline: none;
+    padding: 25px 0;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+}
+
+.buttons>div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button {
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(49, 49, 40);
+    transition: .3s;
+    cursor: context-menu;
+}
+
+.button::selection {
+    background-color: transparent;
+}
+
+.button:hover {
+    opacity: .4;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn {
+    background: rgba(38, 59, 93, 0.726);
+    color: #fff;
+}
